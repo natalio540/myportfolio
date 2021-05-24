@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="635" height="401" viewBox="0 0 635 401">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-svg-header);
+      }
+
+      .cls-2 {
+        fill: #48838d;
+      }
+
+      .cls-3 {
+        fill: #386f78;
+      }
+    </style>
+    <clipPath id="clip-svg-header">
+      <rect width="635" height="401"/>
+    </clipPath>
+  </defs>
+  <g id="svg-header" class="cls-1">
+    <g id="Grupo_4" data-name="Grupo 4" transform="translate(-355 -829)">
+      <path id="Trazado_9" data-name="Trazado 9" class="cls-2" d="M3976.62,689.675c2.409-80.2,15.65-88.3,130-104.762s197.368-17.833,244.359-87.794,81.6-152.017,168.954-168.245c-1.252,145.323,0,360.8,0,360.8H3976.62Z" transform="translate(-3525.987 544.489)"/>
+      <path id="Trazado_10" data-name="Trazado 10" class="cls-3" d="M3945.9,646.2c2.149-71.525,38.434-74.29,140.417-88.971s176.027-15.9,217.937-78.3,72.772-135.58,150.685-150.054c-1.117,129.609,0,321.789,0,321.789L4114.76,646.2Z" transform="translate(-3461 585)"/>
+    </g>
+  </g>
+</svg>

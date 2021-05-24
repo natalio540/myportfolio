@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.499" height="264.059" viewBox="0 0 91.499 264.059">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+
+      .cls-1 {
+        stroke: #3e7982;
+      }
+
+      .cls-2 {
+        stroke: #5bb5c4;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_7" data-name="Grupo 7" transform="translate(-554.008 -429.686)">
+    <path id="Trazado_15" data-name="Trazado 15" class="cls-1" d="M-1103.973,279.406s134,84.442,36.324,256.349" transform="translate(1689.107 210.615) rotate(3)"/>
+    <path id="Trazado_16" data-name="Trazado 16" class="cls-2" d="M-1103.973,279.406s78.864,49.7,21.378,150.874" transform="translate(1681.16 272.495) rotate(3)"/>
+  </g>
+</svg>

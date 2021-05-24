@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="319" height="457" viewBox="0 0 319 457">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-svg-contact);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ff7b54;
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-svg-contact">
+      <rect width="319" height="457"/>
+    </clipPath>
+  </defs>
+  <g id="svg-contact" class="cls-1">
+    <path id="Trazado_12" data-name="Trazado 12" class="cls-2" d="M3583.282,3401.485C3529.1,3530.307,3342.711,3511.607,3422.9,3596.8s257.909,49.867,208.061-14.544-255.742-14.545-283.917,51.944,136.54,195.312,136.54,195.312" transform="translate(-3339.745 -3372.903)"/>
+  </g>
+</svg>

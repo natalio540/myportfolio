@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321" height="1629" viewBox="0 0 321 1629">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-svg-work);
+      }
+
+      .cls-2 {
+        fill: #3e7982;
+        stroke: #fff;
+      }
+    </style>
+    <clipPath id="clip-svg-work">
+      <rect width="321" height="1629"/>
+    </clipPath>
+  </defs>
+  <g id="svg-work" class="cls-1">
+    <path id="Trazado_13" data-name="Trazado 13" class="cls-2" d="M3073.736,2152.667c119.35,24.186,239.082,81.333,260.446,211.652,44.694,272.634-197.961,427.483-215.839,637.545s219.068,711.143-36.637,672.145S3074.913,2939.332,3073.736,2152.667Z" transform="translate(-3074 -2112)"/>
+  </g>
+</svg>

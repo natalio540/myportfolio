@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat';
+    
+}
+
+/* DEVELOPER PAGE --------------------------------------*/
+.dev-container{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.dev-container h1{
+    color: #ff7b54;
+}
+
+.dev-container .shape-dev{
+    position: absolute;
+    width: 185px;
+    left: 0;
+    top: 250px;
+}
+
+ 
+.dev-title{
+    margin-left: 30px;
+}
+
+    .dev-container:nth-of-type(1){
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .individual-project:nth-of-type(1){
+        margin-bottom: 50px;
+    }
+    .dev-container:nth-of-type(2) .individual-project:nth-of-type(1){
+        margin-top: -50px;
+    }
+
+  .dev-container .individual-project{
+      position: relative;
+      width:485px ;
+      height: auto;
+      border: 5px solid #ff7b54;
+      box-sizing: border-box;
+  }
+
+  .dev-container .individual-project .img-box{
+      position: relative;
+      overflow: hidden;
+  }
+
+  .dev-container img{
+      max-width: 100%;
+      height: auto;
+      transition: transform 1s;
+      opacity: .9; 
+  }
+
+    .individual-project:hover .img-box img{
+      transform: scale(1.2);
+  }
+
+  .individual-project .texto{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background:#ff7c54d0;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+
+  .individual-project:hover .texto{
+      transform: scaleX(1);  
+  }
+
+  .individual-project .texto .contenido{
+      position: absolute;
+      top: 25px;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .contenido h4{
+      margin-bottom: 20px;
+      color: #fff;
+  }
+  .contenido p{
+    color: #fff;
+  }
+
+  .contenido button{
+      border: 2px solid  #f5f5f5;
+      background-color: rgb(255, 123, 84,0.0) ;
+      width: 100px;
+      border-radius: 20px;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 10px;
+      font-size: 15px;
+      /* #386f78 */
+      cursor: pointer;
+  }
+
+  .contenido button:hover{
+    background-color: #ff7c54e3 ;
+    box-shadow:#e46842e3 3px 3px 3px 3px ;
+    
+  }
+
+  .contenido button a:link, a:visited, a:active {
+    text-decoration: none;
+    color:#f5f5f5;
+}
+/* DEVELOPER PAGE */
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:1024px){
+
+    .dev-container h1{
+        font-size: 30px;
+        margin: 100px auto;
+    }
+    .dev-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+      
+    .shape-dev{
+        width: 160px;
+    }
+    .dev-container .individual-project{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    
+    .contain-two-projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dev-container:nth-of-type(1){
+        flex-direction: column;
+    }
+    .individual-project:nth-of-type(1){
+        margin-bottom: 0px;
+        margin-bottom: 50px;
+    }
+    .dev-container:nth-of-type(2) .individual-project:nth-of-type(1){
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width:768px){
+    .dev-container h1{
+        font-size: 25px;
+        
+    }
+    .shape-dev{
+        width: 160px;
+    }
+    .dev-container .individual-project{
+        width: 85%;
+        
+        
+    }
+    .individual-project .texto .contenido{
+       font-size: 12px; 
+       margin-bottom: 10px;
+       top: 5px;
+    }
+    
+    .individual-project .texto{
+        transform: none;
+    }
+    /* .individual-project .texto{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    } */
+    .contenido h4{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:520px){
+    .individual-project .texto .contenido{
+        font-size: 12px; 
+        margin-bottom: 10px;
+        top: 5px;
+     }
+     .contenido button{
+        width: 70px;
+        font-size: 12px;
+    }
+    .dev-container .individual-project{
+        height: 170px;
+    }
+}
+
+@media (max-width:330px){
+    .dev-container .individual-project{
+        width: 100%;
+    }
+}
